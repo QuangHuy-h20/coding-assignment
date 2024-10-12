@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #737373;
+  border-radius: 6px;
+  padding: 8px 12px;
+  gap: 10px;
+  background-color: transparent;
+
+  &:has([data-completed='true']) {
+    border-color: #22c55e;
+    border-width: 2px;
+  }
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}

@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.ticket-list {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.item {
+  color: #000;
+  text-decoration: none;
+}
